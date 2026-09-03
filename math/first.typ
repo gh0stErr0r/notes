@@ -11,7 +11,7 @@
 
 #show: ilm.with(
   title: [Теория по матану],
-  author: "Кто автор? Я не знаю! (by @ERR_4O4)",
+  author: "Кто автор? Я не знаю! (by @gh0st_err)",
   date: datetime(year: 2026, month: 05, day: 05),
   abstract: [
     No AI $times$ $"Generation"/"Slop"$.
@@ -375,7 +375,7 @@ $ S = integral.double_D d x d y $
 
 == Замена координат
 $ integral.double_D f(x,y) d x d y = integral.double_Omega f(x(u,v), y(u,v)) |J| d u d v $
-где $J = (diff(x, y))/(diff(u, v)) = |mat(diff x slash diff u, diff x slash diff v; diff y slash diff u, diff y slash diff v)|$
+где $J = (div(x, y))/(div(u, v)) = |mat(div x slash div u, div x slash div v; div y slash div u, div y slash div v)|$
 === Доказательство
 
 == Геометрический смысл Якобиана
@@ -411,7 +411,7 @@ $
 == Замена переменных в тройном интеграле
 $ integral.triple_B f(x,y,z) d x d y d z = integral.triple_Omega f(x(u,v,w), y(u,v,w), z(u,v,w)) |J| d u d v d w $
 $
-  J = (diff(x, y, z))/(diff(u, v, w)) = |mat(diff x slash diff u, diff x slash diff v, diff x slash diff w; diff y slash diff u, diff y slash diff v, diff y slash diff w; diff z slash diff u, diff z slash diff v, diff z slash diff w)|
+  J = (div (x, y, z))/(div (u, v, w)) = |mat(div x slash div u, div x slash div v, div x slash div w; div y slash div u, div y slash div v, div y slash div w; div z slash div u, div z slash div v, div z slash div w)|
 $
 
 == Цилиндрическая, сферическая система координат
