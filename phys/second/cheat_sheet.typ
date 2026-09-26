@@ -51,3 +51,21 @@ $phi = W/(q_"пр")"     " phi["В"]$ \
 $A_12 = W_1 - W_2 = - Delta W$ \
 $A_12 = q(phi_1 - phi_2)$ \
 $arrow(E) = - gradient phi $
+
+== Ветор эл индукции
+$arrow(D) = epsilon epsilon_0 arrow(E)$\
+$arrow(D) = arrow(P) +  epsilon_0 arrow(E)$\
+$integral.cont_S arrow(D) dot d arrow(S) = q_"св вн"$\
+== Конденсатор
+$C = q/phi$ [Ф] - фарада \ 
+$C = q/(Delta phi) = q/U$ \ 
+$C = (epsilon epsilon_0 S)/d$ - Емкость плоского конденсатора\
+$C = (2 pi epsilon_0 L)/( ln ((R_2)/(R_1))  )$ - Емкость цилиндрического конденсатора\
+$C = 4 pi epsilon_0 (R_1 R_2)/(R_2 - R_1)$ - Емкость сферического конденсатора\
+
+== Электрический ток
+$I = (d q)/(d t)$ - [А] Ампер\
+$I = integral_S arrow(j) d arrow(S)$\
+
+== Стронние силы и ЭДС
+$Epsilon = A/q$ [$Epsilon$] = В\
